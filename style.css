@@ -1,0 +1,265 @@
+* {
+	overflow-x: hidden;
+}
+
+body {
+	background-color: black;
+	font-family: arial;
+}
+
+.firstContainer img{
+	width: 350px;
+	height: 200px;
+}
+
+.secondContainer h1 {
+	margin-top: 0;
+	margin-left: 80px;
+	color: white;
+	font-size: 80px;
+}
+
+.thirdContainer input {
+	margin: 0 80px 40px 80px;
+	height: 100px;
+	width: 800px;
+	border-radius: 10px;
+	font-size: 40px;
+	padding-left: 20px;
+}
+
+.thirdContainer button {
+	margin-left: 80px;
+	margin-top: 60px;
+	width: 825px;
+	height: 120px;
+	border-radius: 10px;
+	font-size: 35px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+.fourthContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 80px 40px 80px;
+	color: white;
+	font-size: 30px;
+}
+
+.fourthContainer input {
+	height: 30px;
+	width: 40px;
+	margin-top: 25px;
+}
+
+.fifthContainer {
+	display: flex;
+	margin-left:65px;
+}
+
+.fifthContainer img{
+	width: 80px;
+	height: 60px;
+}
+
+.fifthContainer p{
+	color: grey;
+	font-size: 30px;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+.sixthChild {
+	color: white;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-left: 80px;
+	color: grey;
+}
+
+.white a {
+	color: white;
+	text-decoration: none;
+}
+
+.blue {
+	color: blue
+}
+
+.blue a {
+	text-decoration: none;
+	color: blue
+}
+
+.sixChild {
+	color: grey;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 90px;
+}
+
+.line {
+	border: 2px solid grey;
+	margin-top: 300px;
+}
+
+.parent {
+	display: flex;
+	flex-direction: column;
+	color: grey;
+	font-size: 30px;
+	margin-left: 80px;
+}
+
+.firstChild {
+	font-size: 50px;
+}
+
+.secondChild {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 80px;
+	margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 1200px){
+	
+	.firstContainer img{
+	width: 300px;
+	height: 150px;
+}
+
+.secondContainer h1 {
+	margin-top: 0;
+	margin-left: 80px;
+	color: white;
+	font-size: 50px;
+}
+
+.thirdContainer input {
+	margin: 0 80px 40px 80px;
+	height: 50px;
+	width: 900px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.thirdContainer button {
+	margin-left: 80px;
+	margin-top: 30px;
+	width: 925px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+.fourthContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 330px 40px 80px;
+	color: white;
+	font-size: 15px;
+}
+
+.fourthContainer input {
+	height: 20px;
+	width: 30px;
+	margin-top: 20px;
+}
+
+.fifthContainer {
+	display: flex;
+	margin-left:70px;
+}
+
+.fifthContainer img{
+	width: 50px;
+	height: 40px;
+}
+
+.fifthContainer p{
+	color: grey;
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+.sixthChild {
+	color: white;
+	font-size: 20px;
+	margin-top: 70px;
+	margin-left: 80px;
+	color: grey;
+}
+
+.white a {
+	color: white;
+	text-decoration: none;
+}
+
+.blue {
+	color: blue
+}
+
+.blue a {
+	text-decoration: none;
+	color: blue
+}
+
+.sixChild {
+	color: grey;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-right: 120px;
+}
+
+.line {
+	border: 2px solid grey;
+	margin-top: 200px;
+}
+
+.parent {
+	display: flex;
+	flex-direction: column;
+	color: grey;
+	font-size: 20px;
+	margin-left: 80px;
+}
+
+.firstChild {
+	font-size: 20px;
+}
+
+.secondChild {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 80px;
+	margin-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
